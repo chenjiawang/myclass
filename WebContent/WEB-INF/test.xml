@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+    <servlet-name>exam</servlet-name>
+    <servlet-class>myclass.mvc.servlet.testservlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>exam</servlet-name>
+    <url-pattern>/JSP/TestServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
